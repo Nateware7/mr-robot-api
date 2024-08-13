@@ -5,7 +5,7 @@ const PORT = 8000
 
 app.use(cors())
 
-const characters = {
+const characters ={
     'elliot' : {
         'outfit': 'black hoodie',
         'condition': 'paranoia',
