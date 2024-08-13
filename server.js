@@ -1,8 +1,11 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
 
-const characters ={
+app.use(cors())
+
+const characters = {
     'elliot' : {
         'outfit': 'black hoodie',
         'condition': 'paranoia',
